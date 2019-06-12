@@ -1,0 +1,77 @@
+$color-am: #2F3691
+$color-lightGray: #CACDD7
+$color-text-primary: #1c1c1c
+$color-text-secondary: #616161
+
+.am-stores-container
+  max-width: 1200px
+  margin: 0 auto
+  padding: 10px
+  font-size: 14px
+  color: $color-text-secondary
+  p
+    margin: 5px 0
+  h3
+    margin-top: 5px
+    margin-bottom: 10px
+    color: $color-am
+    font-size: 22px
+    font-weight: lighter
+
+.am-stores
+  display: grid
+  grid-template-columns: 1fr
+  grid-gap: 10px
+
+.am-stores-header
+  display: flex
+  flex-flow: column wrap
+  margin-bottom: 20px
+  h1
+    font-weight: lighter
+
+.am-stores-search-container
+  display: flex
+  align-items: center
+  margin-bottom: 10px
+  max-width: 100%
+  svg
+    fill: $color-text-secondary
+    width: 35px
+    margin-left: 10px
+
+.am-stores-search-input
+  height: 52px
+  padding: 0 20px
+  border-radius: 4px
+  border: 1px solid #eaeaea
+  width: 100%
+  outline: none
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.14)
+  &:focus
+    border: 1px solid $color-lightGray
+
+.am-store-box
+  border: 1px solid #eaeaea
+  border-radius: 3px
+  padding: 10px
+
+.am-store-section > p:first-child
+  font-weight: bold
+
+.am-store-section-phone
+  display: flex
+  p
+    margin-right: 10px
+
+@media (min-width: 770px)
+  .am-stores
+    grid-template-columns: 1fr 1fr
+
+  .am-stores-search-container
+    min-width: 400px
+
+  .am-stores-header
+    flex-flow: row wrap
+    justify-content: space-between
+    align-items: center

@@ -1,0 +1,52 @@
+{
+  "stores": [
+    {
+      "name": "Audiomusica Rancagua",
+      "address": "Cuevas 482 - locas 033, nivel 1, Mall Patio Rancagua",
+      "phone": ["(56-72) 222 9262", "(56-2) 2384 2050", "(56-2) 2384 2051"],
+      "hours": [
+        "Lunes a sábado: 10 a 21 hrs.",
+        "Domingos y festivos: 11 a 21 hrs."
+      ]
+    },
+    {
+      "name": "Audiomusica Megatienda",
+      "address": "Av. Chile España 393, Ñuñoa, Santiago",
+      "phone": ["(56-2) 2384 2050", "(56-2 2384 2051)"],
+      "hours": [
+        "Lunes a sábado: 10:30 a 20:30 hrs.",
+        "Sábado: 10:30 a 18 hrs.",
+        "Domingos y festivos: Cerrado."
+      ]
+    },
+    {
+      "name": "Audiomusica Megacenter",
+      "address": "Av. Vicuña McKenna393, Ñuñoa, Santiago",
+      "phone": ["(56-2) 2384 2050", "(56-2 2384 2051)"],
+      "hours": [
+        "Lunes a sábado: 10:30 a 20:30 hrs.",
+        "Sábado: 10:30 a 18 hrs.",
+        "Domingos y festivos: Cerrado."
+      ]
+    },
+    {
+      "name": "Audiomusica Chalala",
+      "address": "Cuevas 482 - locas 033, nivel 1, Mall Patio Rancagua",
+      "phone": ["(56-72) 222 92 62"],
+      "hours": [
+        "Lunes a sábado: 10 a 21 hrs.",
+        "Domingos y festivos: 11 a 21 hrs."
+      ]
+    },
+    {
+      "name": "Audiomusica Peor es Nada",
+      "address": "Av. Chile España 393, Ñuñoa, Santiago",
+      "phone": ["(56-2) 2384 2050", "(56-2 2384 2051)"],
+      "hours": [
+        "Lunes a sábado: 10:30 a 20:30 hrs.",
+        "Sábado: 10:30 a 18 hrs.",
+        "Domingos y festivos: Cerrado."
+      ]
+    }
+  ]
+}
