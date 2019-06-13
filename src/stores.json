@@ -1,52 +1,321 @@
 {
   "stores": [
     {
-      "name": "Audiomusica Rancagua",
-      "address": "Cuevas 482 - locas 033, nivel 1, Mall Patio Rancagua",
-      "phone": ["(56-72) 222 9262", "(56-2) 2384 2050", "(56-2) 2384 2051"],
-      "hours": [
-        "Lunes a sábado: 10 a 21 hrs.",
-        "Domingos y festivos: 11 a 21 hrs."
-      ]
-    },
-    {
-      "name": "Audiomusica Megatienda",
+      "name": "Megatienda",
       "address": "Av. Chile España 393, Ñuñoa, Santiago",
-      "phone": ["(56-2) 2384 2050", "(56-2 2384 2051)"],
+      "phone": ["(56) 2 2384 2050", "(56) 2 2384 2051"],
       "hours": [
         "Lunes a sábado: 10:30 a 20:30 hrs.",
-        "Sábado: 10:30 a 18 hrs.",
-        "Domingos y festivos: Cerrado."
-      ]
+        "Sábado: 10:30 a 18 hrs."
+      ],
+      "region": "",
+      "reg_num": "",
+      "zone": ""
     },
     {
-      "name": "Audiomusica Megacenter",
-      "address": "Av. Vicuña McKenna393, Ñuñoa, Santiago",
-      "phone": ["(56-2) 2384 2050", "(56-2 2384 2051)"],
-      "hours": [
-        "Lunes a sábado: 10:30 a 20:30 hrs.",
-        "Sábado: 10:30 a 18 hrs.",
-        "Domingos y festivos: Cerrado."
-      ]
+      "name": "Outlet Premium Buenaventura",
+      "address": "San Ignacio 500, Local 132, Buenaventura Premiun Outlet, Quilicura",
+      "phone": ["(56) 2 2384 2003"],
+      "hours": ["Lunes a Domingo: 10:00 a 20:00 hrs."],
+      "region": "",
+      "reg_num": "",
+      "zone": ""
     },
     {
-      "name": "Audiomusica Chalala",
-      "address": "Cuevas 482 - locas 033, nivel 1, Mall Patio Rancagua",
-      "phone": ["(56-72) 222 92 62"],
+      "name": "Maipú",
+      "address": "Av. Américo Vespucio N°399, Local 385, Local 385, 2º Nivel, Mall Arauco-Maipú, Maipú",
+      "phone": ["(56) 2 2384 2030"],
       "hours": [
-        "Lunes a sábado: 10 a 21 hrs.",
-        "Domingos y festivos: 11 a 21 hrs."
-      ]
+        "Lunes a Domingo: 10:30 a 21:30 hrs.",
+        "Festivos: 10:30 a 21:30 hrs."
+      ],
+      "region": "",
+      "reg_num": "",
+      "zone": ""
     },
     {
-      "name": "Audiomusica Peor es Nada",
-      "address": "Av. Chile España 393, Ñuñoa, Santiago",
-      "phone": ["(56-2) 2384 2050", "(56-2 2384 2051)"],
+      "name": "Plaza Sur",
+      "address": "Av. Pdte. Jorge Alessandri Nº20040, Loc. B-2045-2047-2049-2051, San Bernardo",
+      "phone": ["(56) 2 2384 2098"],
       "hours": [
-        "Lunes a sábado: 10:30 a 20:30 hrs.",
-        "Sábado: 10:30 a 18 hrs.",
-        "Domingos y festivos: Cerrado."
-      ]
+        "Lunes a Domingo: 10:00 a 21:30 hrs.",
+        "Festivos: 10:00 a 21:30 hrs."
+      ],
+      "region": "",
+      "reg_num": "",
+      "zone": ""
+    },
+    {
+      "name": "Arcadia",
+      "address": "Arlegui 440-446, local 101, Galería Arcadia, Viña del Mar",
+      "phone": ["(56) 32 271 0980"],
+      "hours": [
+        "Lunes a Viernes: 10:30 a 20:00 hrs.",
+        "Sábados: 10:30 a 18:00 hrs.",
+        "Festivos: Cerrado"
+      ],
+      "region": "",
+      "reg_num": "",
+      "zone": ""
+    },
+    {
+      "name": "Viña del Mar",
+      "address": "14 Norte 880, Local 20 (2ºNivel), Boulevard Marina Arauco, Viña del Mar",
+      "phone": ["(56) 32 215 7823", "(56) 32 215 7824"],
+      "hours": [
+        "Lunes a Jueves: 10:30 a 21:00 hrs.",
+        "Viernes y Sábado: 10:30 a 21:30 hrs.",
+        "Domingo y Festivos: 11:00 a 21:00 hrs."
+      ],
+      "region": "",
+      "reg_num": "",
+      "zone": ""
+    },
+    {
+      "name": "Rancagua",
+      "address": "Cuevas 483 - Local 033 (Nivel -1), Mall Vivo, Rancagua",
+      "phone": ["(56) 72 222 9262"],
+      "hours": [
+        "Lunes a Sábado: 10:00 a 21:00 hrs.",
+        "Domingos y Festivos: 11:00 a 21:00 hrs."
+      ],
+      "region": "",
+      "reg_num": "",
+      "zone": ""
+    },
+    {
+      "name": "Talca",
+      "address": "1 Sur 1537, Local 211. Portal Centro, Talca",
+      "phone": ["(56) 71 223 6256"],
+      "hours": [
+        "Lunes a Sábado: 10:00 a 21:00 hrs.",
+        "Domingos y Festivos de 11:00 a 21:00 hrs."
+      ],
+      "region": "",
+      "reg_num": "",
+      "zone": ""
+    },
+    {
+      "name": "Alto Las Condes",
+      "address": "Av. Pdte.Kennedy # 9001 , Local 3090, Mall Alto Las Condes, Las Condes",
+      "phone": ["(56) 2 2384 2460"],
+      "hours": ["Lunes a Domingo y Festivos: 10:00 a 22:00 hrs."],
+      "region": "",
+      "reg_num": "",
+      "zone": ""
+    },
+    {
+      "name": "La Dehesa",
+      "address": "Av. La Dehesa 522, Lo Barnechea",
+      "phone": ["(56) 2 2384 2070"],
+      "hours": [
+        "Lunes a Viernes: 10:50 a 20:00 hrs.",
+        "Sábados: 10:50 a 19:00 hrs.",
+        "Domingos y Festivos: Cerrado."
+      ],
+      "region": "",
+      "reg_num": "",
+      "zone": ""
+    },
+    {
+      "name": "Los Domínicos",
+      "address": "Av. Padre Hurtado Sur 875, Loc C2020-C2024-C2028, Mall Plaza Los Domínicos, Las Condes",
+      "phone": ["(56) 2 2384 2430"],
+      "hours": ["Lunes a Domingo y Festivos: 10:00 a 21:30 hrs."],
+      "region": "",
+      "reg_num": "",
+      "zone": ""
+    },
+    {
+      "name": "Crowne Plaza / Guitarras, AudioPro y DJ",
+      "address": "Alameda 142, Local 148, Galería Crowne Plaza, Santiago Centro",
+      "phone": ["(56) 2 2384 2310", "(56) 9 6919 9049", "(56) 9 9827 4116"],
+      "hours": [
+        "Lunes a Viernes: 10:50 a 14:00 hrs. y 15:00 a 20:00 hrs.",
+        "Sábados: 10:50 a 14:00 hrs.",
+        "Domingos y Festivos: Cerrado."
+      ],
+      "region": "",
+      "reg_num": "",
+      "zone": ""
+    },
+    {
+      "name": "Crowne Plaza / Teclados y sintetizadores",
+      "address": "Alameda 142, Local 179, Galería Crowne Plaza, Santiago Centro",
+      "phone": ["(56) 2 2384 2100", "(56) 9 2384 2105", "(56) 9 9827 4116"],
+      "hours": [
+        "Lunes a Viernes: 10:50 a 14:00 hrs. y 15:00 a 20:00 hrs.",
+        "Sábados: 10:50 a 14:00 hrs.",
+        "Domingos y Festivos: Cerrado."
+      ],
+      "region": "",
+      "reg_num": "",
+      "zone": ""
+    },
+    {
+      "name": "Crowne Plaza / Pianos y sinfónicos",
+      "address": "Alameda 142, Local 186, Galería Crowne Plaza, Santiago Centro",
+      "phone": ["(56) 2 2384 21 00", "(56) 9 9827 41 16"],
+      "hours": [
+        "Lunes a Viernes: 10:50 a 14:00 hrs. y 15:00 a 20:00 hrs.",
+        "Sábados: 10:50 a 14:00 hrs.",
+        "Domingos y Festivos: Cerrado."
+      ],
+      "region": "",
+      "reg_num": "",
+      "zone": ""
+    },
+    {
+      "name": "Crowne Plaza / Percusión",
+      "address": "Alameda 142, Local 195, Galería Crowne Plaza, Santiago Centro",
+      "phone": ["(56) 9 2384 2310", "(56) 9 6919 9049"],
+      "hours": [
+        "Lunes a Viernes: 10:50 a 14:00 hrs. y 15:00 a 20:00 hrs.",
+        "Sábados: 10:50 a 14:00 hrs.",
+        "Domingos y Festivos: Cerrado."
+      ],
+      "region": "",
+      "reg_num": "",
+      "zone": ""
+    },
+    {
+      "name": "Plaza Trébol",
+      "address": "Av. Jorge Alessandri 3177, Loc. E 214-E 216, Mall El Trébol, Talcahuano",
+      "phone": ["(56) 41 290 6713", "(56) 41 290 6714"],
+      "hours": [
+        "Lunes a Domingo: 10:30 a 21:30 hrs.",
+        "Festivos: 11:30 a 21:30 hrs."
+      ],
+      "region": "",
+      "reg_num": "",
+      "zone": ""
+    },
+    {
+      "name": "Concepción Centro",
+      "address": "Av. Barros Arana 201, Esquina Salas, Concepción",
+      "phone": ["(56) 41 224 6490"],
+      "hours": [
+        "Lunes a Viernes: 10:50 a 20:00 hrs.",
+        "Sábados: 10:50 a 14:00 hrs."
+      ],
+      "region": "",
+      "reg_num": "",
+      "zone": ""
+    },
+    {
+      "name": "Temuco",
+      "address": "Av. Alemania 0671, Local 1080, Mall Portal Temuco, Temuco",
+      "phone": ["(56) 45 274 5240"],
+      "hours": [
+        "Domingo a Jueves: 10:00 a 22:00 hrs.",
+        "Viernes y Sábado: 10:00 a 22:00 hrs.",
+        "Festivos: 10:00 a 22:00 hrs."
+      ],
+      "region": "",
+      "reg_num": "",
+      "zone": ""
+    },
+    {
+      "name": "Puerto Montt",
+      "address": "Illapel 10, Local 7 y 8, Altillo, Mall Paseo Costanera del Mar, Pto. Montt",
+      "phone": ["(56) 65 226 7722"],
+      "hours": [
+        "Lunes a Sábado: 10:00 a 21:00 hrs.",
+        "Domingo y Festivos: 11:00 a 21:00 hrs."
+      ],
+      "region": "",
+      "reg_num": "",
+      "zone": ""
+    },
+    {
+      "name": "Valdivia",
+      "address": "Arauco 561, Local 304, Mall Plaza De Los Ríos, Valdivia",
+      "phone": ["(56) 2 2384 2440"],
+      "hours": [
+        "Lunes a Sábado: 10:00 a 21:00 hrs.",
+        "Domingo y Festivos: 11:00 a 21:00 hrs."
+      ],
+      "region": "",
+      "reg_num": "",
+      "zone": ""
+    },
+    {
+      "name": "Iquique",
+      "address": "Módulo 2083 Mall Zofri, Iquique",
+      "phone": ["(56) 57 237 0021", "(57) 237 0022", "(57) 237 0027"],
+      "hours": ["Lunes a Sábado: 11:00 a 21:00 hrs."],
+      "region": "",
+      "reg_num": "",
+      "zone": ""
+    },
+    {
+      "name": "Antofagasta",
+      "address": "Av. Balmaceda 2355, Loc.266 al 269 (2º Nivel), Mall Plaza Antofagasta, Antofagasta",
+      "phone": ["(56) 55 253 3281", "(56) 55 253 3282"],
+      "hours": [
+        "Lunes a Domingo: 10:00 a 22:00 hrs.",
+        "Festivos: 10:00 a 22:00 hrs."
+      ],
+      "region": "",
+      "reg_num": "",
+      "zone": ""
+    },
+    {
+      "name": "Copiapó",
+      "address": "Calle Maipú N°0110, locales A1184, A1188, A1192, Copiapó",
+      "phone": ["(56) 22 384 2080", "(56) 22 384 2084"],
+      "hours": [
+        "Lunes a Domingo: 10:00 a 21:30 hrs.",
+        "Festivos: 10:00 a 21:30 hrs."
+      ],
+      "region": "",
+      "reg_num": "",
+      "zone": ""
+    },
+    {
+      "name": "La Serena",
+      "address": "Av. Alberto Solari 1400 - Local 12, Mall Plaza La Serena, La Serena",
+      "phone": ["(56) 51 247 1102"],
+      "hours": [],
+      "region": "",
+      "reg_num": "",
+      "zone": ""
+    },
+    {
+      "name": "Parque Arauco",
+      "address": "Av. Pdte. Kennedy Nº5413, Loc. 120, 1er Nivel, Mall Parque Arauco, Las Condes",
+      "phone": ["(56) 2 2384 2110"],
+      "hours": [
+        "Lunes a Sábado: 10:00 a 21:00 hrs.",
+        "Domingos y Festivos: 11:00 a 21:00 hrs."
+      ],
+      "region": "",
+      "reg_num": "",
+      "zone": ""
+    },
+    {
+      "name": "Costanera Center",
+      "address": "Av. Andrés Bello 2447 Loc 204 - 208, Providencia",
+      "phone": ["(56) 2 2384 2420"],
+      "hours": ["Lunes a Domingo y Festivos: 10:00 a 22:00 hrs."],
+      "region": "",
+      "reg_num": "",
+      "zone": ""
+    },
+    {
+      "name": "Plaza Vespucio",
+      "address": "Av. Vicuña Mackenna O. 7110, Loc.423 al 426, (2º Nivel) Mall Plaza Vespucio, La Florida",
+      "phone": ["(56) 2 2580 7540", "(56) 2 2384 2120"],
+      "hours": ["Lunes, Domingos y Festivos: 10:00 hrs. a 21:30 hrs."],
+      "region": "",
+      "reg_num": "",
+      "zone": ""
+    },
+    {
+      "name": "Florida Center",
+      "address": "Av. Vicuña Mackenna 6100, Local 2042, Mall Florida Center, La Florida",
+      "phone": ["(56) 2 2384 2400", "(56) 2 2384 2401"],
+      "hours": ["Lunes, Domingos y Festivos: 10:00 hrs. a 21:30 hrs."]
     }
   ]
 }

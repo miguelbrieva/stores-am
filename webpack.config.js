@@ -57,7 +57,7 @@ module.exports = {
             options: {
               minimize: true,
               removeComments: true,
-              attrs: ['img:src', 'source:srcset'],
+              attrs: ['img:src', 'source:srcset', 'link:href'],
             },
           },
         ],
@@ -74,7 +74,6 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       template: 'src/index.html',
-      favicon: 'src/assets/b.ico',
     }),
     new CleanWebpackPlugin(['dist']),
     new webpack.HotModuleReplacementPlugin(),

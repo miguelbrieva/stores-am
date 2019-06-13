@@ -64,15 +64,7 @@ module.exports = {
       },
     ],
   },
-  optimization: {
-    usedExports: true,
-    runtimeChunk: 'single',
-    splitChunks: {
-      chunks: 'all',
-    },
-  },
   output: {
-    chunkFilename: 'chunks/[name].[contenthash:8].js',
     filename: '[name].[hash:8].js',
     path: path.resolve(__dirname, 'dist'),
   },
@@ -83,7 +75,6 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       template: 'src/index.html',
-      favicon: 'src/assets/b.ico',
     }),
     new CleanWebpackPlugin(['dist']),
   ],

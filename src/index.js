@@ -6,12 +6,14 @@ const { stores } = require('./stores.json');
 const container = document.querySelector('.am-stores');
 
 const options = {
-  shouldSort: true,
-  threshold: 0.4,
+  tokenize: true,
+  matchAllTokens: true,
+  findAllMatches: true,
+  threshold: 0.2,
   location: 0,
   distance: 100,
   maxPatternLength: 32,
-  minMatchCharLength: 3,
+  minMatchCharLength: 2,
   keys: ['address', 'name'],
 };
 
@@ -20,7 +22,7 @@ const render = data => {
     container.insertAdjacentHTML(
       'beforeend',
       `<div class="am-store-box">
-        <h3>${element.name}</h3>
+        <h3>Audiomusica ${element.name}</h3>
         <div class="am-store-section">
           <p>Dirección:</p>
           <p>${element.address}</p>
