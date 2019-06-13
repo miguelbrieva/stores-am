@@ -45,7 +45,7 @@ const render = data => {
             })
             .join('')}
         </div>
-      <div>`
+      </div>`
     );
   });
 };
