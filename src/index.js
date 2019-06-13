@@ -14,7 +14,7 @@ const options = {
   distance: 100,
   maxPatternLength: 32,
   minMatchCharLength: 2,
-  keys: ['address', 'name'],
+  keys: ['address', 'name', 'region'],
 };
 
 const render = data => {
