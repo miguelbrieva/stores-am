@@ -62,8 +62,8 @@
       "reg_num": "RM"
     },
     {
-      "name": "Los Domínicos",
-      "address": "Av. Padre Hurtado Sur 875, Loc C2020-C2024-C2028, Mall Plaza Los Domínicos, Las Condes",
+      "name": "Los Dominicos",
+      "address": "Av. Padre Hurtado Sur 875, Loc C2020-C2024-C2028, Mall Plaza Los Dominicos, Las Condes",
       "phone": ["(56) 2 2384 2430"],
       "hours": ["Lunes a Domingo y Festivos: 10:00 a 21:30 hrs."],
       "region": "Metropolitana, Santiago",
@@ -149,6 +149,18 @@
       "address": "Av. Vicuña Mackenna 6100, Local 2042, Mall Florida Center, La Florida",
       "phone": ["(56) 2 2384 2400", "(56) 2 2384 2401"],
       "hours": ["Lunes, Domingos y Festivos: 10:00 hrs. a 21:30 hrs."],
+      "region": "Metropolitana, Santiago",
+      "reg_num": "RM"
+    },
+    {
+      "name": "Megacenter",
+      "address": "Av. Vicuña Mackenna 1284, Ñuñoa",
+      "phone": ["(56) 2 2384 2450"],
+      "hours": [
+        "Lunes a Viernes: 09:30 a 19:30 hrs.",
+        "Sábados: 11:00 a 14:00 hrs.",
+        "Domingos y Festivos: Cerrado."
+      ],
       "region": "Metropolitana, Santiago",
       "reg_num": "RM"
     },
