@@ -45,7 +45,7 @@
       "name": "Alto Las Condes",
       "address": "Av. Pdte.Kennedy # 9001 , Local 3090, Mall Alto Las Condes, Las Condes",
       "phone": ["(56) 2 2384 2460"],
-      "hours": ["Lunes a Domingo y Festivos: 10:00 a 22:00 hrs."],
+      "hours": ["Lunes a Domingo: 10:00 a 22:00 hrs."],
       "region": "Metropolitana, Santiago",
       "reg_num": "RM"
     },
@@ -65,7 +65,7 @@
       "name": "Los Dominicos",
       "address": "Av. Padre Hurtado Sur 875, Loc C2020-C2024-C2028, Mall Plaza Los Dominicos, Las Condes",
       "phone": ["(56) 2 2384 2430"],
-      "hours": ["Lunes a Domingo y Festivos: 10:00 a 21:30 hrs."],
+      "hours": ["Lunes a Domingo: 10:00 a 21:30 hrs."],
       "region": "Metropolitana, Santiago",
       "reg_num": "RM"
     },
@@ -132,7 +132,7 @@
       "name": "Costanera Center",
       "address": "Av. Andrés Bello 2447 Loc 204 - 208, Providencia",
       "phone": ["(56) 2 2384 2420"],
-      "hours": ["Lunes a Domingo y Festivos: 10:00 a 22:00 hrs."],
+      "hours": ["Lunes a Domingo: 10:00 a 22:00 hrs."],
       "region": "Metropolitana, Santiago",
       "reg_num": "RM"
     },
@@ -140,7 +140,7 @@
       "name": "Plaza Vespucio",
       "address": "Av. Vicuña Mackenna O. 7110, Loc.423 al 426, (2º Nivel) Mall Plaza Vespucio, La Florida",
       "phone": ["(56) 2 2580 7540", "(56) 2 2384 2120"],
-      "hours": ["Lunes, Domingos y Festivos: 10:00 hrs. a 21:30 hrs."],
+      "hours": ["Lunes a Domingos: 10:00 hrs. a 21:30 hrs."],
       "region": "Metropolitana, Santiago",
       "reg_num": "RM"
     },
@@ -148,7 +148,7 @@
       "name": "Florida Center",
       "address": "Av. Vicuña Mackenna 6100, Local 2042, Mall Florida Center, La Florida",
       "phone": ["(56) 2 2384 2400", "(56) 2 2384 2401"],
-      "hours": ["Lunes, Domingos y Festivos: 10:00 hrs. a 21:30 hrs."],
+      "hours": ["Lunes a Domingos: 10:00 hrs. a 22:00 hrs."],
       "region": "Metropolitana, Santiago",
       "reg_num": "RM"
     },
@@ -198,7 +198,7 @@
       "name": "La Serena",
       "address": "Av. Alberto Solari 1400 - Local 12, Mall Plaza La Serena, La Serena",
       "phone": ["(56) 51 247 1102"],
-      "hours": [],
+      "hours": ["Lunes a Domingo: 10:30 a 21:30 hrs."],
       "region": "Coquimbo",
       "reg_num": 4
     },

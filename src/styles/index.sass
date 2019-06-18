@@ -4,6 +4,9 @@ $color-lightGray: #CACDD7
 $color-text-primary: #1c1c1c
 $color-text-secondary: #616161
 
+body
+  background-color: $color-am-background
+
 .am-stores-container
   max-width: 1200px
   margin: 0 auto
@@ -12,6 +15,9 @@ $color-text-secondary: #616161
   color: $color-text-secondary
   p
     margin: 5px 0
+  h2
+    font-weight: 300
+    margin-left: 10px
   h3
     margin-top: 5px
     margin-bottom: 10px
@@ -29,7 +35,10 @@ $color-text-secondary: #616161
   flex-flow: column wrap
   margin-bottom: 20px
   h1
+    text-transform: uppercase
     font-weight: lighter
+    font-size: 28px
+    color: $color-am
 
 .am-stores-search-container
   form
