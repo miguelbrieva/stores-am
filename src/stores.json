@@ -165,6 +165,14 @@
       "reg_num": "RM"
     },
     {
+      "name": "Servicio Técnico y Componentes",
+      "address": "Av. Vicuña Mackenna 1284, Ñuñoa",
+      "phone": ["(56) 2 2384 2180"],
+      "hours": ["Lunes a viernes de 9 a 14 hrs. y de 15 a 18.30 hrs."],
+      "region": "Metropolitana, Santiago",
+      "reg_num": "RM"
+    },
+    {
       "name": "Iquique",
       "address": "Módulo 2083 Mall Zofri, Iquique",
       "phone": ["(56) 57 237 0021", "(57) 237 0022", "(57) 237 0027"],
