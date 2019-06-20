@@ -3,6 +3,8 @@ $color-am-background: #F4F5F7
 $color-lightGray: #CACDD7
 $color-text-primary: #1c1c1c
 $color-text-secondary: #616161
+$shadow: 0 2px 4px 0 rgba(0,0,0,0.14)
+$shadow-focus: 0 3px 9px 0 rgba(0,0,0,0.19)
 
 body
   background-color: $color-am-background
@@ -10,7 +12,7 @@ body
 .am-stores-container
   max-width: 1200px
   margin: 0 auto
-  padding: 10px
+  margin-top: -70px
   font-size: 14px
   color: $color-text-secondary
   p
@@ -33,7 +35,7 @@ body
 .am-stores-header
   display: flex
   flex-flow: column wrap
-  margin-bottom: 20px
+  margin-bottom: -20px
   h1
     text-transform: uppercase
     font-weight: lighter
@@ -41,26 +43,26 @@ body
     color: $color-am
 
 .am-stores-search-container
+  background-color: white
+  box-shadow: $shadow !important
+  border-radius: 4px !important
+  border: 1px solid #eaeaea !important
+  overflow: hidden
   form
     display: flex
     align-items: center
-    margin-bottom: 10px
     max-width: 100%
     svg
       fill: $color-text-secondary
       width: 35px
-      margin-left: 10px
+      margin-right: 10px
 
 .am-stores-search-input
   height: 52px !important
   padding: 0 20px !important
-  border-radius: 4px !important
-  border: 1px solid #eaeaea !important
+  border: none !important
   width: 100% !important
   outline: none !important
-  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.14) !important
-  &:focus
-    border: 1px solid $color-lightGray
 
 .am-store-box
   border: 1px solid #eaeaea
@@ -83,11 +85,14 @@ body
   margin-top: 50px
 
 @media (min-width: 770px)
+  .am-stores-container
+    margin-top: -30px
+
   .am-stores
     grid-template-columns: 1fr 1fr
 
   .am-stores-search-container
-    min-width: 400px
+    min-width: 45%
 
   .am-stores-header
     flex-flow: row wrap

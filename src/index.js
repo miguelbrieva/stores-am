@@ -38,31 +38,31 @@ const storesByZonesTemplate = data => {
   let south = data.south || [];
 
   return `<div>
-        ${
-          north === undefined || north.length < 1
-            ? ''
-            : `<h2 class="am-store-zone-title">Zona Norte</h2>
-              <div class="am-stores">
-                ${north.map(item => storeCardTemplate(item)).join('')}
-              </div>`
-        }
-        ${
-          central !== undefined && central.length > 0
-            ? `<h2 class="am-store-zone-title">Zona Central</h2>
-              <div class="am-stores">
-                ${central.map(item => storeCardTemplate(item)).join('')}
-              </div>`
-            : ''
-        }
-        ${
-          south !== undefined && south.length > 0
-            ? `<h2 class="am-store-zone-title">Zona Sur</h2>
-              <div class="am-stores">
-                ${south.map(item => storeCardTemplate(item)).join('')}
-              </div>`
-            : ''
-        }
-      </div>`;
+    ${
+      north === undefined || north.length < 1
+        ? ''
+        : `<h2 class="am-store-zone-title">Zona Norte</h2>
+          <div class="am-stores">
+            ${north.map(item => storeCardTemplate(item)).join('')}
+          </div>`
+    }
+    ${
+      central !== undefined && central.length > 0
+        ? `<h2 class="am-store-zone-title">Zona Central</h2>
+          <div class="am-stores">
+            ${central.map(item => storeCardTemplate(item)).join('')}
+          </div>`
+        : ''
+    }
+    ${
+      south !== undefined && south.length > 0
+        ? `<h2 class="am-store-zone-title">Zona Sur</h2>
+          <div class="am-stores">
+            ${south.map(item => storeCardTemplate(item)).join('')}
+          </div>`
+        : ''
+    }
+  </div>`;
 };
 
 const createZones = data => {
