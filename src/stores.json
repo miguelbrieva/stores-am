@@ -70,9 +70,31 @@
       "reg_num": "RM"
     },
     {
-      "name": "Crowne Plaza / Guitarras, AudioPro y DJ",
+      "name": "Crowne Plaza / Guitarras, AudioPro y Home Studio",
       "address": "Alameda 142, Local 148, Galería Crowne Plaza, Santiago Centro",
-      "phone": ["(56) 2 2384 2310", "(56) 9 6919 9049", "(56) 9 9827 4116"],
+      "phone": [
+        "(56) 2 2384 2310",
+        "(56) 2 2384 2313",
+        "(56) 2 2384 2316",
+        "(56) 2 2384 2319", 
+        "(56) 9 6919 9049"
+      ],
+      "hours": [
+        "Lunes a Viernes: 10:50 a 14:00 hrs. y 15:00 a 20:00 hrs.",
+        "Sábados: 10:50 a 14:00 hrs.",
+        "Domingos y Festivos: Cerrado."
+      ],
+      "region": "Metropolitana, Santiago",
+      "reg_num": "RM"
+    },
+    {
+      "name": "Crowne Plaza / especialistas Dj",
+      "address": "Alameda 142, Locales 185-186, Galería Crowne Plaza, Santiago Centro",
+      "phone": [
+        "(56) 2 2384 2100",
+        "(56) 2 2384 2108",
+        "(56) 9 9827 4116"
+      ],
       "hours": [
         "Lunes a Viernes: 10:50 a 14:00 hrs. y 15:00 a 20:00 hrs.",
         "Sábados: 10:50 a 14:00 hrs.",
@@ -84,7 +106,11 @@
     {
       "name": "Crowne Plaza / Teclados y sintetizadores",
       "address": "Alameda 142, Local 179, Galería Crowne Plaza, Santiago Centro",
-      "phone": ["(56) 2 2384 2100", "(56) 9 2384 2105", "(56) 9 9827 4116"],
+      "phone": [
+        "(56) 2 2384 2100",
+        "(56) 9 2384 2108",
+        "(56) 9 9827 4116"
+      ],
       "hours": [
         "Lunes a Viernes: 10:50 a 14:00 hrs. y 15:00 a 20:00 hrs.",
         "Sábados: 10:50 a 14:00 hrs.",
@@ -108,7 +134,11 @@
     {
       "name": "Crowne Plaza / Percusión",
       "address": "Alameda 142, Local 195, Galería Crowne Plaza, Santiago Centro",
-      "phone": ["(56) 9 2384 2310", "(56) 9 6919 9049"],
+      "phone": [
+        "(56) 2 2384 2100",
+        "(56) 9 2384 2106",
+        "(56) 9 2384 4116"
+      ],
       "hours": [
         "Lunes a Viernes: 10:50 a 14:00 hrs. y 15:00 a 20:00 hrs.",
         "Sábados: 10:50 a 14:00 hrs.",
@@ -158,8 +188,7 @@
       "phone": ["(56) 2 2384 2450"],
       "hours": [
         "Lunes a Viernes: 09:30 a 19:30 hrs.",
-        "Sábados: 11:00 a 14:00 hrs.",
-        "Domingos y Festivos: Cerrado."
+        "Sábados, domingos y festivos: Cerrado."
       ],
       "region": "Metropolitana, Santiago",
       "reg_num": "RM"
@@ -192,7 +221,7 @@
       "reg_num": 2
     },
     {
-      "name": "Copiapó",
+      "name": "Mall Plaza Copiapó",
       "address": "Calle Maipú N°0110, locales A1184, A1188, A1192, Copiapó",
       "phone": ["(56) 22 384 2080", "(56) 22 384 2084"],
       "hours": [
@@ -236,7 +265,7 @@
     },
     {
       "name": "Rancagua",
-      "address": "Cuevas 483 - Local 033 (Nivel -1), Mall Vivo, Rancagua",
+      "address": "Cuevas 483 - Local 033 (Nivel -1), Mall Patio, Rancagua",
       "phone": ["(56) 72 222 9262"],
       "hours": [
         "Lunes a Sábado: 10:00 a 21:00 hrs.",
@@ -259,7 +288,7 @@
     {
       "name": "Plaza Trébol",
       "address": "Av. Jorge Alessandri 3177, Loc. E 214-E 216, Mall El Trébol, Talcahuano",
-      "phone": ["(56) 41 290 6713", "(56) 41 290 6714"],
+      "phone": ["(56) 41 290 6713"],
       "hours": [
         "Lunes a Domingo: 10:30 a 21:30 hrs.",
         "Festivos: 11:30 a 21:30 hrs."
@@ -270,7 +299,7 @@
     {
       "name": "Concepción Centro",
       "address": "Av. Barros Arana 201, Esquina Salas, Concepción",
-      "phone": ["(56) 41 224 6490"],
+      "phone": ["(56) 22 384 2150"],
       "hours": [
         "Lunes a Viernes: 10:50 a 20:00 hrs.",
         "Sábados: 10:50 a 14:00 hrs."
@@ -281,7 +310,7 @@
     {
       "name": "Temuco",
       "address": "Av. Alemania 0671, Local 1080, Mall Portal Temuco, Temuco",
-      "phone": ["(56) 45 274 5240"],
+      "phone": ["(56) 45 274 5242"],
       "hours": [
         "Domingo a Jueves: 10:00 a 22:00 hrs.",
         "Viernes y Sábado: 10:00 a 22:00 hrs.",
